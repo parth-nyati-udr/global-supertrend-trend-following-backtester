@@ -1,4 +1,4 @@
-# supertrend-dema-system
+# Global SuperTrend Trend-Following Backtester
 
 A rules-based, long-only trend-following system for NSE instruments: a **weekly SuperTrend** decides whether to be in the market, a **daily SuperTrend + DEMA(200)** decides when. Indicators are implemented from first principles, and the backtest is cost-aware and free of look-ahead.
 
