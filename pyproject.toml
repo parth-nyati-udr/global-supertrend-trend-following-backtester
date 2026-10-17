@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "supertrend-dema-system"
+version = "1.0.0"
+description = "Dual-timeframe SuperTrend + DEMA 200 trend-following system with a cost-aware backtest"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["pandas>=2.0", "numpy>=1.24", "yfinance>=0.2.40"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools]
+packages = ["st_system"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
